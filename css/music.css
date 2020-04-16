@@ -1,0 +1,86 @@
+nav.home svg{
+  position: fixed;
+  left: 20px;
+  top:20px;
+}
+
+#streaming-links li {
+  display: inline-block;
+  margin:10px 10px;
+}
+
+section {
+  display: inline-block;
+
+  margin: 20px;
+}
+
+section#streaming-links {
+  max-width: 500px;
+  background-color: rgba(25,25,25,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.video-box {
+  position:relative;
+  width:75%;
+  padding-top:42.19%;
+  margin:auto;
+}
+
+div.video-box iframe {
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+div.soundcloud-embed {
+  position:relative;
+  width:75%;
+  margin:15px auto;
+  padding-top: 21.9%;
+}
+
+div.soundcloud-embed iframe {
+position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+.sc-shape{clip-path:url(#sc-link)}
+
+svg#youtube:hover .yt-box {
+  fill: #FF0000;
+}
+
+svg#youtube:hover .yt-triangle {
+  fill: #FFF;
+}
+
+svg#spotify:hover .sp-circle {
+  fill:#1ED760;
+}
+
+svg#spotify:hover .sp-lines {
+  fill:#000;
+}
+
+svg#soundcloud:hover .sc-shape {
+  fill:url(#sc-gradient);
+}
+
+svg#applemusic:hover .apple-notes {
+  fill:url(#apple-gradient);
+}
+
+svg#bandcamp:hover .bc-square {
+  fill:#61919B;
+}
+
+svg#bandcamp:hover .bc-inner {
+  fill:#FFF;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.Title {
+	position: static;
+	font-family: "Bellerose Light:1.0";
+	font-size: 100px;
+	text-align: center;
+	margin-top: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#bg {
+	background-image: url(bg.png);
+	background-repeat: repeat;
+}
+.Link {
+	font-family: "Bellerose Light:1.0";
+	font-size: 69px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#About {
+	position: relative;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	clip: rect(150px,auto,auto,auto);
+	margin-top: -200px;
+	margin-left: 0px;
+	width: auto;
+}
+#Merch {
+	white-space: nowrap;
+	overflow: hidden;
+	position: fixed;
+	margin-top: -160px;
+	margin-left: 890px;
+}
+#Music {
+	margin-left: 650px;
+	position: fixed;
+	margin-top: -160px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#apDiv1 {
+	position: relative;
+	width: 1206px;
+	height: 617px;
+	z-index: 1;
+	left: 285px;
+	top: 122px;
+}
+
+#apDiv2 {
+	position: absolute;
+	width: 528px;
+	height: 115px;
+	z-index: 1;
+	font-family: "Milestone Free Version Script";
+	font-size: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	top: 114px;
+	left: 380px;
+	letter-spacing: 1.1em;
+}
+.rad {
+	font-size: 100ddfdfsdfss;
+}
