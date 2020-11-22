@@ -1,3 +1,2 @@
-riley mm
-this is my website
-
+# Riley MM
+My personal music website.
