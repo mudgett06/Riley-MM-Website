@@ -6,5 +6,5 @@ deployment:
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp music.html $DEPLOYPATH
     - /bin/cp merch.html $DEPLOYPATH
-    - /bin/cp -R css.html $DEPLOYPATH
-    - /bin/cp -R img.css $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
